@@ -1,0 +1,124 @@
+<!--
+Design and development by Gabe Ferreira
+www.gabeferreira.com
+contact@gabeferreira.com
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>José Meza</title>
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="José Meza is an art director working in visual and brand design.">
+	<link href="assets/main.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="assets/img/favicon.ico">
+	<link rel="canonical" href="http://josemeza.info" />
+
+	<!--Favicons-->
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32"  href="assets/favicon/favicon-32x32.png">
+	<link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+	<link rel="manifest" href="assets/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<!--Facebook Open Graph-->
+	<meta property="og:url" content="http://josemeza.com" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="José Meza" />
+	<meta property="og:image" content="http://josemeza.info/assets/img/thumbnail.png" />
+	<meta property="og:description" content="José Meza is an art director working in visual and brand design." />
+
+	<!--Twitter Card-->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="José Meza" />
+	<meta name="twitter:description" content="José Meza is an art director working in visual and brand design." />
+	<meta name="twitter:image" content="http://josemeza.info/assets/img/thumbnail.png" />
+
+	<!--Google Analytics-->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163826468-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-163826468-1');
+	</script>
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<header id="mainHeader" class="fadeOnLoad">
+			<div class="siteMeta">
+				<span class="siteTitle">José Meza, Art&nbsp;Director</span><br>
+				<span class="siteLocation">San Francisco, California</span><br>
+			</div><!--siteMeta-->
+		</header><!--header-->
+
+		<div class="expandablePanel fadeOnLoad">
+			<div class="expandablePanelTrigger" data-audio-open="shutter" data-audio-close="sms">
+				About
+				<div class="expandablePanelButton">
+					<img src="assets/img/ui/panelButton.svg">
+				</div><!--expandablePanelButton-->
+			</div><!--expandablePanelTrigger-->
+			<div class="expandablePanelContentContainer">
+				<div class="expandablePanelContent smallerText" id="aboutSectionContent">
+					José Meza is an art director based in San Francisco currently working on visual and brand design with <a href="http://google.com" target="_blank" class="newPageLink">Google Brand Studio</a>. Previously, he worked at <a href="http://ideo.com" target="_blank" class="newPageLink">IDEO</a>, helped launch <a href="http://figma.com" target="_blank" class="newPageLink">Figma</a>, and interned at <a href="http://pentagram.com" target="_blank" class="newPageLink">Pentagram</a> and <a href="http://2x4.org" target="_blank" class="newPageLink">2x4</a>. He studied architecture at <a href="https://www.architecture.yale.edu/" target="_blank" class="newPageLink">Yale</a> and <a href="https://soa.princeton.edu/" target="_blank" class="newPageLink">Princeton</a> and is currently a guest critic and lecturer at <a href="http://cca.edu" target="_blank" class="newPageLink">CCA</a>. He makes architectural images and objects and shares them on <a href="http://instagram.com/lcl.business" target="_blank" class="newPageLink">Instagram</a>. Thanks for stopping by.
+				</div><!--expandablePanelContent-->
+			</div><!--expandablePanelContentContainer-->
+		</div><!--expandablePanel-->
+
+		<div class="expandablePanel fadeOnLoad">
+			<div class="expandablePanelTrigger" data-audio-open="mail" data-audio-close="beer">
+				Selected work
+				<div class="expandablePanelButton">
+					<img src="assets/img/ui/panelButton.svg">
+				</div><!--expandablePanelButton-->
+			</div><!--expandablePanelTrigger-->
+			<div class="expandablePanelContentContainer smallerText">
+				<div class="expandablePanelContent">
+					<div id="projectList"></div><!--projectList-->
+				</div><!--expandablePanelContent-->
+			</div><!--expandablePanelContentContainer-->
+		</div><!--expandablePanel-->
+
+		<div class="expandablePanel fadeOnLoad">
+			<div class="expandablePanelTrigger" data-audio-open="dialing" data-audio-close="low-power">
+				Contact
+				<div class="expandablePanelButton">
+					<img src="assets/img/ui/panelButton.svg">
+				</div><!--expandablePanelButton-->
+			</div><!--expandablePanelTrigger-->
+			<div class="expandablePanelContentContainer">
+				<div class="expandablePanelContent smallerText">
+					jose.meza.ramos@gmail.com<br>
+					+1 650-798-9253
+				</div><!--expandablePanelContent-->
+			</div><!--expandablePanelContentContainer-->
+		</div><!--expandablePanel-->		
+
+	</div><!--wrapper-->
+
+	<div id="soundController" class="soundOn fadeOnLoad smallerText">
+		<span id="soundText">Sound</span>
+		<span id="soundToggle">
+			<span id="soundToggleDot"></span><!--soundToggleDot-->
+		</span><!--soundToggle-->
+	</div><!--soundController-->
+
+	<div id="cursor" class="fadeOnLoad">
+		<img src="assets/img/ui/cursor.svg">
+	</div><!--cursor-->
+
+	<script async src="assets/app.js"></script>
+
+</body>
+
+</html>
