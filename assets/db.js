@@ -1,6 +1,6 @@
 projectDB = [
 	{
-		title:'Google - Most Searched',
+		title:'Most Searched',
 		id:'Google - Most Searched',
 		images:[
 			'Opener.jpg',
@@ -14,7 +14,7 @@ projectDB = [
 		customID:'',
 	},
 	{
-		title:'Google - Pride',
+		title:'Space to Belong',
 		id:'Google - Pride',
 		images:[
 			'Pride - 1.jpg',
