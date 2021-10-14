@@ -1,14 +1,30 @@
 projectDB = [
 	{
-		title:'Google',
-		id:'Google',
+		title:'Google - Most Searched',
+		id:'Google - Most Searched',
 		images:[
 			'Opener.jpg',
 			'Film.jpg',
 			'Interactive.jpg',
 			'Print.jpg',
 			'Social.jpg',
-			'Outdoor.jpg'
+			'Outdoor.jpg',
+		],
+		customClass:'',
+		customID:'',
+	},
+	{
+		title:'Google - Pride',
+		id:'Google - Pride',
+		images:[
+			'Pride - 1.jpg',
+			'Pride - 2.jpg',
+			'Pride - 3.jpg',
+			'Pride - 4.jpg',
+			'Pride - 5.jpg',
+			'Pride - 6.jpg',
+			'Pride - 7.jpg',
+			'Pride - 8.jpg',
 		],
 		customClass:'',
 		customID:'',
