@@ -1,8 +1,8 @@
 projectDB = [
 	{
-		title:'Most Searched',
+		title:'The Most Searched',
 		id:'Most Searched',
-		description:'Art direction and design for a spotlight on some of the most searched moments and individuals in America for Black History Month',
+		description:'For Black History Month, art direction and design for a spotlight on some of the most searched moments and individuals in America',
 		images:[
 			'Google-1.jpg',
 			'Google-2.jpg',
@@ -21,7 +21,7 @@ projectDB = [
 	{
 		title:'Space to Belong',
 		id:'Space to Belong',
-		description:'Art direction and design for a celebration of inclusive spaces that foster belonging for all during Pride season',
+		description:'For Pride season, art direction and design for a celebration of inclusive spaces that foster belonging for all',
 		images:[
 			'Pride - 1.jpg',
 			'Pride - 2.jpg',
@@ -53,12 +53,12 @@ projectDB = [
 		id:'IDEO',
 		description:'Art direction for the design and consulting firm',
 		images:[
-			'IDEO-1.jpg',
 			'IDEO-2.jpg',
 			'IDEO-3.jpg',
 			'IDEO-4.jpg',
 			'IDEO-5.jpg',
-			'IDEO-6.jpg'
+			'IDEO-6.jpg',
+			'IDEO-7.jpg'
 		],
 		customClass:'',
 		customID:'',
@@ -66,7 +66,7 @@ projectDB = [
 	{
 		title:'Figma',
 		id:'Figma',
-		description:'Brand design for the first public release of the design tool',
+		description:'Brand design for the public release of the design tool',
 		images:[
 			'Figma-0.gif',
 			'Figma-1.jpg',
