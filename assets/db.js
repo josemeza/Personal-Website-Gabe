@@ -2,7 +2,7 @@ projectDB = [
 	{
 		title:'Most Searched',
 		id:'Most Searched',
-		description:'→ Art direction and design for a spotlight on some of the most searched moments and individuals in America a Black History Month',
+		description:'Art direction and design for a spotlight on some of the most searched moments and individuals in America for Black History Month',
 		images:[
 			'Google-1.jpg',
 			'Google-2.jpg',
@@ -24,7 +24,7 @@ projectDB = [
 	{
 		title:'Space to Belong',
 		id:'Space to Belong',
-		description:'→ Art direction and design for a celebration of inclusive spaces that foster belonging for all during Pride season',
+		description:'Art direction and design for a celebration of inclusive spaces that foster belonging for all during Pride season',
 		images:[
 			'Pride - 1.jpg',
 			'Pride - 2.jpg',
@@ -41,7 +41,7 @@ projectDB = [
 	{
 		title:'Gayletter',
 		id:'Gayletter',
-		description:'→ Contributing layout design and art direction for the biannual print magazine',
+		description:'Layout design and art direction for the biannual print magazine',
 		images:[
 			'Gayletter-1.jpg',
 			'Gayletter-2.jpg',
@@ -54,14 +54,14 @@ projectDB = [
 	{
 		title:'IDEO',
 		id:'IDEO',
-		description:'→ Art direction for the design and consulting firm',
+		description:'Art direction for the design and consulting firm',
 		images:[
 			'IDEO-1.jpg',
 			'IDEO-2.jpg',
 			'IDEO-3.jpg',
 			'IDEO-4.jpg',
 			'IDEO-5.jpg',
-			'IDEO-6.jpg',
+			'IDEO-6.jpg'
 		],
 		customClass:'',
 		customID:'',
@@ -69,12 +69,12 @@ projectDB = [
 	{
 		title:'Figma',
 		id:'Figma',
-		description:'→ Brand design for the first public release of the design tool',
+		description:'Brand design for the first public release of the design tool',
 		images:[
 			'Figma-0.gif',
 			'Figma-1.jpg',
 			'Figma-2.jpg',
-			'Figma-3.jpg',
+			'Figma-3.jpg'
 		],
 		customClass:'',
 		customID:'',
@@ -82,7 +82,7 @@ projectDB = [
 	{
 		title:'Pentagram',
 		id:'Pentagram',
-		description:'→ Environmental and graphic design under the direction of Paula Scher',
+		description:'Environmental and graphic design under the direction of Paula Scher',
 		images:[
 			'Pentagram-1.jpg',
 			'Pentagram-2.jpg',
@@ -96,7 +96,7 @@ projectDB = [
 	{
 		title:'2×4',
 		id:'2x4',
-		description:'→ Environmental design and graphics for cultural and retail clients.',
+		description:'Environmental design and graphics for cultural and retail clients',
 		images:[
 			'2x4-1.jpg',
 			'2x4-2.jpg'
@@ -107,7 +107,7 @@ projectDB = [
 	{
 		title:'Princeton School of Architecture',
 		id:'Princeton',
-		description:'→ Work samples from a graduate program in architecture',
+		description:'Work samples from a graduate program in architecture',
 		images:[
 			'Princeton-1.jpg',
 			'Princeton-2.jpg',
@@ -129,9 +129,9 @@ projectDB = [
 		customID:'',
 	},
 	{
-		title:'WIP',
+		title:'Work in Progress',
 		id:'WIP',
-		description:'→ An ongoing exploration of the ordinary through object and image making',
+		description:'An ongoing exploration of the ordinary through object and image making',
 		images:[
 			'WIP-1.jpg',
 			'WIP-2.jpg',
