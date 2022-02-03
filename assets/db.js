@@ -2,7 +2,7 @@ projectDB = [
 	{
 		title:'The Most Searched',
 		id:'Most Searched',
-		description:'For Black History Month, art direction and design for a spotlight on some of the most searched moments and individuals in America',
+		description:'Art direction and design for a spotlight on some of the most searched moments and individuals in America in honor of Black History Month',
 		images:[
 			'Google-1.jpg',
 			'Google-2.jpg',
@@ -21,7 +21,7 @@ projectDB = [
 	{
 		title:'Space to Belong',
 		id:'Space to Belong',
-		description:'For Pride season, art direction and design for a celebration of inclusive spaces that foster belonging for all',
+		description:'Art direction and design for a Pride season celebration of inclusive spaces that foster belonging for all',
 		images:[
 			'Pride - 1.jpg',
 			'Pride - 2.jpg',
