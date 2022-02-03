@@ -50,7 +50,7 @@ projectDB = [
 	},
 	{
 		title:'IDEO',
-		id:'2x4',
+		id:'IDEO',
 		description:'Art direction for the design and consulting firm',
 		images:[
 			'IDEO-1.jpg',
@@ -93,7 +93,7 @@ projectDB = [
 	{
 		title:'2×4',
 		id:'2x4',
-		description:'Environmental design and graphics for cultural and retail clients',
+		description:'Environmental design and graphics for cultural and retail institutions',
 		images:[
 			'2x4-1.jpg',
 			'2x4-2.jpg'
