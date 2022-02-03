@@ -93,7 +93,7 @@ projectDB = [
 	{
 		title:'2×4',
 		id:'2x4',
-		description:'Environmental design and graphics for cultural and retail institutions',
+		description:'Environmental design for cultural and retail institutions',
 		images:[
 			'2x4-1.jpg',
 			'2x4-2.jpg'
@@ -144,7 +144,7 @@ projectDB = [
 			'WIP-12.jpg',
 			'WIP-13.jpg',
 			'WIP-14.jpg',
-			'WIP-15.jpg',
+			'WIP-15.jpg'
 		],
 		customClass:'',
 		customID:'',
