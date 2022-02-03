@@ -1,30 +1,15 @@
 projectDB = [
 	{
-		title:'Most Searched',
-		id:'Google - Most Searched',
+		title:'Google',
+		id:'Google',
+		description:'For Black History Month, Google featured some of the most searched moments and individuals in America.',
 		images:[
-			'Opener.jpg',
 			'Film.jpg',
 			'Interactive.jpg',
-			'Print.jpg',
-			'Social.jpg',
+			'Opener.jpg',
 			'Outdoor.jpg',
-		],
-		customClass:'',
-		customID:'',
-	},
-	{
-		title:'Space to Belong',
-		id:'Google - Pride',
-		images:[
-			'Pride - 1.jpg',
-			'Pride - 2.jpg',
-			'Pride - 3.jpg',
-			'Pride - 4.jpg',
-			'Pride - 5.jpg',
-			'Pride - 6.jpg',
-			'Pride - 7.jpg',
-			'Pride - 8.jpg',
+			'Print.jpg',
+			'Social.jpg'
 		],
 		customClass:'',
 		customID:'',
@@ -32,6 +17,7 @@ projectDB = [
 	{
 		title:'Gayletter',
 		id:'Gayletter',
+		description:'In support of the LGBTQ+ community, Google celebrated inclusive spaces that foster belonging for all.',
 		images:[
 			'Gayletter.jpg',
 			'Gayletter 1.jpg',
@@ -44,17 +30,11 @@ projectDB = [
 	{
 		title:'IDEO',
 		id:'IDEO',
+		description:'In support of the LGBTQ+ community, Google celebrated inclusive spaces that foster belonging for all.',
 		images:[
 			'1.jpg',
 			'2.jpg',
 			'4.jpg',
-			'5.jpg',
-			'6.jpg',
-			'7.jpg',
-			'8.jpg',
-			'10.jpg',
-			'13.jpg',
-			'14.jpg',
 		],
 		customClass:'',
 		customID:'',
@@ -62,11 +42,11 @@ projectDB = [
 	{
 		title:'Figma',
 		id:'Figma',
+		description:'In support of the LGBTQ+ community, Google celebrated inclusive spaces that foster belonging for all.',
 		images:[
 			'2.png',
-			'4a.png',
-			'1a.gif',
-			'5.png',
+			'3.png',
+			'4.png',
 		],
 		customClass:'',
 		customID:'',
@@ -74,6 +54,7 @@ projectDB = [
 	{
 		title:'Pentagram',
 		id:'Pentagram',
+		description:'In support of the LGBTQ+ community, Google celebrated inclusive spaces that foster belonging for all.',
 		images:[
 			'2.jpg',
 			'3.jpg',
@@ -85,6 +66,7 @@ projectDB = [
 	{
 		title:'2×4',
 		id:'2x4',
+		description:'In support of the LGBTQ+ community, Google celebrated inclusive spaces that foster belonging for all.',
 		images:[
 			'2.jpg',
 			'3.jpg',
@@ -95,17 +77,21 @@ projectDB = [
 	{
 		title:'WIP',
 		id:'WIP',
+		description:'In support of the LGBTQ+ community, Google celebrated inclusive spaces that foster belonging for all.',
 		images:[
 			'1.jpg',
-			'2.jpg',
+			'3.jpg',
 			'4.jpg',
-			'9.jpg',
-			'8.jpg',
-			'10.jpg',
-			'6.gif',
-			'7.gif',
-			'14.jpg',
-			'12.jpg',
+		],
+		customClass:'',
+		customID:'',
+	},
+	{
+		title:'Sample',
+		id:'sample',
+		description:'A sample project with only one image, set up for testing purposes.',
+		images:[
+			'1.jpg',
 		],
 		customClass:'',
 		customID:'',
@@ -113,22 +99,11 @@ projectDB = [
 	{
 		title:'Princeton',
 		id:'Princeton',
+		description:'In support of the LGBTQ+ community, Google celebrated inclusive spaces that foster belonging for all.',
 		images:[
 			'3.jpg',
 			'4.jpg',
 			'5.jpg',
-			'6.jpg',
-			'7.jpg',
-			'8.jpg',
-			'9.jpg',
-			'10.png',
-			'11.png',
-			'12.png',
-			'13.jpg',
-			'14.jpg',
-			'16.png',
-			'17.png',
-			'15.png',
 		],
 		customClass:'',
 		customID:'',
