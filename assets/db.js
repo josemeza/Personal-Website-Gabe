@@ -2,7 +2,7 @@ projectDB = [
 	{
 		title:'Most Searched',
 		id:'Most Searched',
-		description:'Art direction and design for a spotlight on some of the most searched moments and individuals in America for Black History Month',
+		description:'Art direction and design for a spotlight on the most searched moments and individuals in America for Black History Month',
 		images:[
 			'Google-1.jpg',
 			'Google-2.jpg',
@@ -16,7 +16,6 @@ projectDB = [
 			'Google-10.jpg',
 			'Google-11.jpg',
 			'Google-12.jpg',
-			'Google-13.jpg'
 		],
 		customClass:'',
 		customID:'',
@@ -47,6 +46,21 @@ projectDB = [
 			'Gayletter-2.jpg',
 			'Gayletter-3.jpg',
 			'Gayletter-4.jpg'
+		],
+		customClass:'',
+		customID:'',
+	},
+	{
+		title:'IDEO',
+		id:'IDEO',
+		description:'Art direction for the design and consulting firm',
+		images:[
+			'IDEO-1.jpg',
+			'IDEO-2.jpg',
+			'IDEO-3.jpg',
+			'IDEO-4.jpg',
+			'IDEO-5.jpg',
+			'IDEO-6.jpg'
 		],
 		customClass:'',
 		customID:'',
@@ -131,7 +145,7 @@ projectDB = [
 	{
 		title:'Work in Progress',
 		id:'WIP',
-		description:'An ongoing exploration of the ordinary through object and image making',
+		description:'An ongoing exploration of the ordinary through image and object making',
 		images:[
 			'WIP-1.jpg',
 			'WIP-2.jpg',
