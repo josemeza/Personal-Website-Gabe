@@ -84,7 +84,6 @@ projectDB = [
 			'Pentagram-1.jpg',
 			'Pentagram-2.jpg',
 			'Pentagram-3.jpg',
-			'Pentagram-4.jpg',
 			'Pentagram-5.jpg'
 		],
 		customClass:'',
