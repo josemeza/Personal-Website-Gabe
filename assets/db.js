@@ -58,7 +58,7 @@ projectDB = [
 			'Card 2.jpg',
 			'About Page.png',
 			'Project Page.gif',
-			'Landing.gif'
+			'Landing.mp4'
 		],
 		customClass:'',
 		customID:'',
