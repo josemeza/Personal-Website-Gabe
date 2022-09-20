@@ -49,6 +49,21 @@ projectDB = [
 		customID:'',
 	},
 	{
+		title:'Dept.',
+		id:'Dept.',
+		description:'Layout design and art direction for the biannual print magazine',
+		images:[
+			'Logo.gif',
+			'Business Card 1.jpg',
+			'Business Card 2.jpg',
+			'About Page.png',
+			'Project Page.gif',
+			'Landing.gif'
+		],
+		customClass:'',
+		customID:'',
+	},
+	{
 		title:'IDEO',
 		id:'IDEO',
 		description:'Art direction for the design and consulting firm',
