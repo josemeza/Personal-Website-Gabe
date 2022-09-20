@@ -56,7 +56,6 @@ projectDB = [
 			'Logo.gif',
 			'Card 1.jpg',
 			'Card 2.jpg',
-			'Landing.gif',
 			'About Page.png',
 			'Project Page.gif',
 		],
