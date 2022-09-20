@@ -51,7 +51,7 @@ projectDB = [
 	{
 		title:'Dept',
 		id:'Dept',
-		description:'Brand strategy and design for a landscape architecture studio',
+		description:'Brand strategy and design for a landscape architecture and urban design studio',
 		images:[
 			'Logo.gif',
 			'Card 1.jpg',
