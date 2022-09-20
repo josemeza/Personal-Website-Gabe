@@ -54,8 +54,8 @@ projectDB = [
 		description:'Brand strategy and design for a landscape architecture studio',
 		images:[
 			'Logo.gif',
-			'Business Card 1.jpg',
-			'Business Card 2.jpg',
+			'Card 1.jpg',
+			'Card 2.jpg',
 			'About Page.png',
 			'Project Page.gif',
 			'Landing.gif'
