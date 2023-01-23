@@ -4,7 +4,7 @@ projectDB = [
 		id:'Most Searched',
 		description:'Art direction and design for a spotlight on some of the most searched moments and individuals in America in honor of Black History Month',
 		images:[
-			'Google-1.gif',
+			'Google-0.gif',
 			'Google-2.jpg',
 			'Google-3.jpg',
 			'Google-5.jpg',
