@@ -38,12 +38,14 @@ projectDB = [
 	{
 		title:'Gayletter',
 		id:'Gayletter',
-		description:'Layout design and art direction for the biannual print magazine',
+		description:'Art direction and layout design for the biannual print magazine',
 		images:[
+			'Gayletter-Omar.gif',
 			'Gayletter-1.jpg',
 			'Gayletter-2.jpg',
 			'Gayletter-3.jpg',
-			'Gayletter-4.jpg'
+			'Gayletter-4.jpg',
+			'Gayletter-Alt.jpg'
 		],
 		customClass:'',
 		customID:'',
