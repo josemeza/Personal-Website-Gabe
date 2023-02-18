@@ -51,7 +51,7 @@ projectDB = [
 		customID:'',
 	},
 	{
-		title:'Dept',
+		title:'Dept.',
 		id:'Dept',
 		description:'Brand strategy and design for a landscape architecture and urban design studio',
 		images:[
