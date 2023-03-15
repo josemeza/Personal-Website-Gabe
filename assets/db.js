@@ -2,7 +2,7 @@ projectDB = [
 	{
 		title:'The Most Searched',
 		id:'Most Searched',
-		description:'Art direction and design for a Google spotlight on some of the most searched moments and individuals in America in honor of Black History Month',
+		description:'Art direction and design for a Google spotlight on some of the most searched moments and individuals in honor of Black History Month',
 		images:[
 			'Google-0.gif',
 			'Google-2.jpg',
@@ -56,10 +56,10 @@ projectDB = [
 		description:'Brand strategy and design for a landscape architecture and urban design studio',
 		images:[
 			'Logo.gif',
-			'Card 1.jpg',
-			'Card 2.jpg',
 			'About Page.png',
 			'Project Page.gif',
+			'Card 1.jpg',
+			'Card 2.jpg'
 		],
 		customClass:'',
 		customID:'',
