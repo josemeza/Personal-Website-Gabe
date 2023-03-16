@@ -118,7 +118,7 @@ projectDB = [
 	{
 		title:'Princeton School of Architecture',
 		id:'Princeton',
-		description:'Work samples from a graduate program in architecture',
+		description:'Selected work from a graduate program in architecture',
 		images:[
 			'Princeton-1.jpg',
 			'Princeton-2.jpg',
