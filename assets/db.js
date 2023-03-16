@@ -5,10 +5,10 @@ projectDB = [
 		description:'Art direction and design for a Google spotlight on some of the most searched moments and individuals in honor of Black History Month',
 		images:[
 			'Google-0.gif',
+			'Google-6.jpg',
 			'Google-2.jpg',
 			'Google-3.jpg',
 			'Google-5.jpg',
-			'Google-6.jpg',
 			'Google-7.jpg',
 			'Google-8.jpg',
 			'Google-9.jpg',
