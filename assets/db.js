@@ -65,6 +65,19 @@ projectDB = [
 		customID:'',
 	},
 	{
+		title:'Figma',
+		id:'Figma',
+		description:'Brand design for the public release of the design tool',
+		images:[
+			'Figma-0.gif',
+			'Figma-1.jpg',
+			'Figma-2.jpg',
+			'Figma-3.jpg'
+		],
+		customClass:'',
+		customID:'',
+	},
+	{
 		title:'IDEO',
 		id:'IDEO',
 		description:'Art direction for the design and consulting firm',
@@ -75,19 +88,6 @@ projectDB = [
 			'IDEO-5.jpg',
 			'IDEO-6.jpg',
 			'IDEO-7.jpg'
-		],
-		customClass:'',
-		customID:'',
-	},
-	{
-		title:'Figma',
-		id:'Figma',
-		description:'Brand design for the public release of the design tool',
-		images:[
-			'Figma-0.gif',
-			'Figma-1.jpg',
-			'Figma-2.jpg',
-			'Figma-3.jpg'
 		],
 		customClass:'',
 		customID:'',
