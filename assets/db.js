@@ -1,5 +1,15 @@
 projectDB = [
 	{
+		title:'Apple',
+		id:'Apple',
+		description:'Art direction and design for marketing creative across Apple services—work samples available upon request',
+		images:[
+			'Apple-1.jpg'
+		],
+		customClass:'',
+		customID:'',
+	},
+	{
 		title:'The Most Searched',
 		id:'Most Searched',
 		description:'Art direction and design for a Google spotlight on some of the most searched moments and individuals in honor of Black History Month',
@@ -21,7 +31,7 @@ projectDB = [
 	{
 		title:'Space to Belong',
 		id:'Space to Belong',
-		description:'Art direction and design for a Google Pride season celebration of inclusive spaces that foster belonging for all',
+		description:'Art direction and design for a Google Pride celebration of inclusive spaces that foster belonging for all',
 		images:[
 			'Pride - 1.jpg',
 			'Pride - 2.jpg',
@@ -38,7 +48,7 @@ projectDB = [
 	{
 		title:'Gayletter',
 		id:'Gayletter',
-		description:'Art direction and layout design for the biannual print magazine',
+		description:'Art direction and layout design for the biannual print magazine chronicling queer art and culture',
 		images:[
 			'Gayletter-Omar.gif',
 			'Gayletter-1.jpg',
@@ -67,7 +77,7 @@ projectDB = [
 	{
 		title:'Figma',
 		id:'Figma',
-		description:'Brand design for the public release of the design tool',
+		description:'Brand design for the public release of the collaborative design tool',
 		images:[
 			'Figma-0.gif',
 			'Figma-1.jpg',
