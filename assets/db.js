@@ -93,11 +93,11 @@ projectDB = [
 		description:'Art direction for the design and consulting firm',
 		images:[
 			'IDEO-2.jpg',
+			'IDEO-7.jpg',
 			'IDEO-3.jpg',
 			'IDEO-4.jpg',
 			'IDEO-5.jpg',
 			'IDEO-6.jpg',
-			'IDEO-7.jpg'
 		],
 		customClass:'',
 		customID:'',
