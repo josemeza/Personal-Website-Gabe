@@ -1,5 +1,20 @@
 projectDB = [
 	{
+		title:'Airbnb',
+		id:'Airbnb',
+		description:'Contributing design and direction for Airbnb 2025 Summer Release',
+		images:[
+			'1-Airbnb.jpg',
+			'2-Airbnb.jpg',
+			'3-Airbnb.jpg',
+			'4-Airbnb.jpg',
+			'5-Airbnb.jpg',
+			'6-Airbnb.jpg'
+		],
+		customClass:'',
+		customID:'',
+	},
+	{
 		title:'Apple',
 		id:'Apple',
 		description:'Art direction and design for marketing creative across Apple services—work samples available upon request',
