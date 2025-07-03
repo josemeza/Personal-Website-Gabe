@@ -2,7 +2,7 @@ projectDB = [
 	{
 		title:'Airbnb',
 		id:'Airbnb',
-		description:'Contributing design and direction for Airbnb 2025 Summer Release',
+		description:'Contributing design and direction for the Airbnb 2025 Summer Release',
 		images:[
 			'1-Airbnb.jpg',
 			'2-Airbnb.jpg',
