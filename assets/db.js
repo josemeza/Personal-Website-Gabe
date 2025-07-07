@@ -9,7 +9,8 @@ projectDB = [
 			'3-Airbnb.jpg',
 			'4-Airbnb.jpg',
 			'5-Airbnb.jpg',
-			'6-Airbnb.jpg'
+			'6-Airbnb.jpg',
+			'7-Airbnb.jpg'
 		],
 		customClass:'',
 		customID:'',
