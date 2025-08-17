@@ -18,7 +18,7 @@ projectDB = [
 	{
 		title:'Apple',
 		id:'Apple',
-		description:'Art direction and design for marketing creative across Apple services',
+		description:'Contributing art direction and design for marketing creative across Apple services',
 		images:[
 			'Apple_1.jpg',
 			'Apple_2.jpg',
