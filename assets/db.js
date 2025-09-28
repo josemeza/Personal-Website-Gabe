@@ -2,7 +2,7 @@ projectDB = [
 	{
 		title:'Fir Wood',
 		id:'Fir Wood',
-		description:'A design-focused retreat stay at an original Sea Ranch Cluster House',
+		description:'A design-focused retreat stay experience at an original Sea Ranch Cluster House',
 		images:[
 			'1_FirWood.jpg',
 			'2_FirWood.gif',
