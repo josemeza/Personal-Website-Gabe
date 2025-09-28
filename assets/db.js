@@ -1,5 +1,19 @@
 projectDB = [
 	{
+		title:'Fir Wood',
+		id:'Fir Wood',
+		description:'A design-focused retreat stay at an original Sea Ranch Cluster House',
+		images:[
+			'1_FirWood.jpg',
+			'2_FirWood.gif',
+			'3_FirWood.jpg',
+			'4_FirWood.jpg',
+			'5_FirWood.jpg'
+		],
+		customClass:'',
+		customID:'',
+	},
+	{
 		title:'Airbnb',
 		id:'Airbnb',
 		description:'Contributing design and direction for the Airbnb 2025 Summer Release',
