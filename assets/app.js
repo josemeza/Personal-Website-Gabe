@@ -124,31 +124,56 @@ function assignHoverStates() {
 }
 }
 setTimeout(function() {
-	body.classList.add("loaded")
-}, 500), window.addEventListener("touchstart", function() {
-	body.classList.add("touchDevice")
-}), window.addEventListener("resize", function() {
-	windowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0), windowHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-	var e = document.getElementsByClassName("expandablePanelContentContainer"),
-	t = !0,
-	r = !1,
-	o = void 0;
-	try {
-		for (var n, a = e[Symbol.iterator](); !(t = (n = a.next()).done); t = !0) {
-			var s = n.value;
-			s.classList.contains("openPanel") && (s.style.height = s.firstElementChild.clientHeight + "px")
-		}
-	} catch (e) {
-		r = !0, o = e
-	} finally {
-		try {
-			t || null == a.return || a.return()
-		} finally {
-			if (r) throw o
-		}
-}
-}), document.addEventListener("mousemove", function(e) {
-	updateCursorPosition(e), cursor.style.left = cursorLeft, cursor.style.top = cursorTop
+  body.classList.add("loaded");
+}, 500);
+
+window.addEventListener("touchstart", function () {
+  body.classList.add("touchDevice");
+}, { passive: true });  // 👈 end with a semicolon
+
+window.addEventListener("resize", function() {
+  windowWidth  = Math.max(document.documentElement.clientWidth,  window.innerWidth  || 0);
+  windowHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+  var e = document.getElementsByClassName("expandablePanelContentContainer"),
+      t = !0, r = !1, o = void 0;
+  try {
+    for (var n, a = e[Symbol.iterator](); !(t = (n = a.next()).done); t = !0) {
+      var s = n.value;
+      if (s.classList.contains("openPanel")) {
+        s.style.height = s.firstElementChild.clientHeight + "px";
+      }
+    }
+  } catch (e) {
+    r = !0, o = e;
+  } finally {
+    try {
+      t || null == a.return || a.return();
+    } finally {
+      if (r) throw o;
+    }
+  }
+});
+
+// rAF-throttled mousemove (safe placement after the resize handler)
+var rafId = null;  // (use var for widest compatibility)
+document.addEventListener("mousemove", function (e) {
+  if (rafId) return;
+  rafId = requestAnimationFrame(function () {
+    updateCursorPosition(e);
+    cursor.style.left = cursorLeft;
+    cursor.style.top  = cursorTop;
+    rafId = null;
+  });
+});
+
+document.addEventListener("mousemove", function (e) {
+  if (rafId) return;
+  rafId = requestAnimationFrame(() => {
+    updateCursorPosition(e);
+    cursor.style.left = cursorLeft;
+    cursor.style.top  = cursorTop;
+    rafId = null;
+  });
 });
 var expandableButtons = document.getElementsByClassName("expandablePanelTrigger"),
 _iteratorNormalCompletion4 = !0,
