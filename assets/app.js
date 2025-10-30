@@ -61,37 +61,40 @@ for (var i = 0; i < projectDB.length; i += 1) {
 		image.src = "assets/img/projects/" + projectDB[i].id + "/" + imageArray[a];
 		image.loading = "lazy";
 		image.decoding = "async";
+		if (i === 0 && a === 0) {
+			image.loading = "eager";
+			image.fetchPriority = "high";
+			}
+			if (a === 0) image.classList.add("showing");
+			projectImages.appendChild(image);
+		}
 
-		if (a === 0) image.classList.add("showing");
-		projectImages.appendChild(image);
+		imageContainer.appendChild(projectImages), newProject.appendChild(imageContainer), newProject.appendChild(imageCount), projectList.appendChild(newProject)
+	}
+	assignHoverStates(), projectPreviews = document.getElementsByClassName("projectPreview");
+
+	function updateCursorPosition(e) {
+		scrollTop = void 0 !== window.pageYOffset ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop, cursorLeft = e.pageX + "px", cursorTop = e.pageY - scrollTop + "px"
 	}
 
-	imageContainer.appendChild(projectImages), newProject.appendChild(imageContainer), newProject.appendChild(imageCount), projectList.appendChild(newProject)
-}
-assignHoverStates(), projectPreviews = document.getElementsByClassName("projectPreview");
-
-function updateCursorPosition(e) {
-	scrollTop = void 0 !== window.pageYOffset ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop, cursorLeft = e.pageX + "px", cursorTop = e.pageY - scrollTop + "px"
-}
-
-function updateThumbnailPosition() {
-	var e = !0,
-	t = !1,
-	r = void 0;
-	try {
-		for (var o, n = projectPreviews[Symbol.iterator](); !(e = (o = n.next()).done); e = !0) {
-			var a = o.value;
-			a.style.top = cursorTop, a.style.left = cursorLeft
-		}
-	} catch (e) {
-		t = !0, r = e
-	} finally {
+	function updateThumbnailPosition() {
+		var e = !0,
+		t = !1,
+		r = void 0;
 		try {
-			e || null == n.return || n.return()
+			for (var o, n = projectPreviews[Symbol.iterator](); !(e = (o = n.next()).done); e = !0) {
+				var a = o.value;
+				a.style.top = cursorTop, a.style.left = cursorLeft
+			}
+		} catch (e) {
+			t = !0, r = e
 		} finally {
-			if (t) throw r
-		}
-}
+			try {
+				e || null == n.return || n.return()
+			} finally {
+				if (t) throw r
+			}
+	}
 }
 
 function assignHoverStates() {
