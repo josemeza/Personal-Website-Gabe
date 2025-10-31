@@ -26,7 +26,7 @@ projectDB = [
 			'6-Airbnb.jpg',
 			'7-Airbnb.jpg'
 		],
-		customClass:'',
+		customClass:'classic',
 		customID:'',
 	},
 	{
