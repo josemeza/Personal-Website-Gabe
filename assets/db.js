@@ -17,6 +17,7 @@ projectDB = [
 		title:'Airbnb',
 		id:'Airbnb',
 		description:'Contributing design and direction for the Airbnb 2025 Summer Release',
+		customClass: "classic",
 		images:[
 			'1-Airbnb.jpg',
 			'2-Airbnb.jpg',
@@ -26,7 +27,6 @@ projectDB = [
 			'6-Airbnb.jpg',
 			'7-Airbnb.jpg'
 		],
-		customClass:'',
 		customID:'',
 	},
 	{

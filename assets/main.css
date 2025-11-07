@@ -151,23 +151,22 @@ span.imageCount {
   top: auto;
   left: auto;
 }
+
 .project.opaque .projectPreview {
 	opacity: 1
 }
 
 img.image {
-  position: relative;
-  display: none;     /* shown only when .showing is added */
-  width: 100%;       /* fill the preview column width */
-  height: auto;      /* keep natural aspect */
-  background: transparent;  /* safety: no tint */
+  position: absolute;
+  inset: 0;                /* top/right/bottom/left: 0 */
+  width: 100%;
+  height: 100%;            /* fill the stage's aspect-ratio height */
+  object-fit: cover;
+  display: none;
+  background: transparent; /* ensure no green tint */
 }
 
-
-img.image.showing {
-	display: block;
-	opacity: 1
-}
+img.image.showing { display: block; }
 
 .project .imageContainerTriggerHolder {
 	display: none
@@ -196,8 +195,11 @@ img.image.showing {
 }
 
 .projectImages {
-  height: auto;   /* let content set height on desktop */
   position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;   /* default */
+  height: auto;
+  overflow: hidden;        /* keeps non-active frames hidden */
 }
 
 .expandablePanelTrigger {
@@ -451,11 +453,6 @@ body.loaded.openPanel #soundController {
 		margin-bottom: 60px
 	}
 
-	img.image {
-		width: 100%;
-		height: auto
-	}
-
 }
 
 @media (hover:none) {
@@ -506,3 +503,19 @@ body.loaded.openPanel #soundController {
     letter-spacing: -1px;
   }
 }
+
+.project.classic .projectImages { aspect-ratio: 4 / 3; }
+
+.imageContainerTriggerHolder {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+#imageContainerLeftTrigger,
+#imageContainerRightTrigger {
+  top: 0;
+  bottom: 0; /* full stage height */
+}
+
+img.image { transition: opacity .25s ease; opacity: 0; }
+img.image.showing { opacity: 1; display: block; }
