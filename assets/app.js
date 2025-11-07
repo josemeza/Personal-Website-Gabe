@@ -12,8 +12,25 @@ function preloadSounds(a) {
 	var o = document.createElement("audio");
 	o.src = "assets/sounds/" + a, o.preload = "none", o.addEventListener("loadeddata", function() {})
 }
-for (var soundFileArray = ["beer.mp3", "dialing.mp3", "low-power.mp3", "mail.mp3", "shutter.mp3", "sms.mp3", "sound-off.mp3", "sound-on.mp3"], a = 0; a < soundFileArray.length; a++) preloadSounds(soundFileArray[a]);
+function initSoundPreload() {
+  var soundFileArray = [
+    "beer.mp3", "dialing.mp3", "low-power.mp3", "mail.mp3",
+    "shutter.mp3", "sms.mp3", "sound-off.mp3", "sound-on.mp3"
+  ];
+  for (var a = 0; a < soundFileArray.length; a++) {
+    preloadSounds(soundFileArray[a]);
+  }
+}
+
+// Defer to idle so it doesn’t block rendering
+if ('requestIdleCallback' in window) {
+  requestIdleCallback(initSoundPreload);
+} else {
+  setTimeout(initSoundPreload, 0);
+}
+
 	console.log("Design and development by Gabe Ferreira"), console.log("contact@gabeferreira.com");
+
 for (var i = 0; i < projectDB.length; i += 1) {
 	var newProject = document.createElement("div");
 	newProject.className = "project " + projectDB[i].customClass, newProject.id = projectDB[i].customID;
@@ -71,6 +88,7 @@ for (var i = 0; i < projectDB.length; i += 1) {
 
 		imageContainer.appendChild(projectImages), newProject.appendChild(imageContainer), newProject.appendChild(imageCount), projectList.appendChild(newProject)
 	}
+
 	assignHoverStates(), projectPreviews = document.getElementsByClassName("projectPreview");
 
 	function updateCursorPosition(e) {
@@ -166,15 +184,6 @@ document.addEventListener("mousemove", function (e) {
   });
 });
 
-document.addEventListener("mousemove", function (e) {
-  if (rafId) return;
-  rafId = requestAnimationFrame(() => {
-    updateCursorPosition(e);
-    cursor.style.left = cursorLeft;
-    cursor.style.top  = cursorTop;
-    rafId = null;
-  });
-});
 var expandableButtons = document.getElementsByClassName("expandablePanelTrigger"),
 _iteratorNormalCompletion4 = !0,
 _didIteratorError4 = !1,
