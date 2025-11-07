@@ -52,107 +52,26 @@ for (var i = 0; i < projectDB.length; i += 1) {
 		cursor.classList.remove("west")
 	});
 	var imageCount, imageContainerRightTrigger = document.createElement("div");
-	
-// set up right trigger hover
-imageContainerRightTrigger.id = "imageContainerRightTrigger";
-imageContainerRightTrigger.addEventListener("mouseenter", function () {
-  cursor.classList.add("east");
-});
-imageContainerRightTrigger.addEventListener("mouseleave", function () {
-  cursor.classList.remove("east");
-});
-
-// mount the two triggers into the holder and into the imageContainer
-imageContainerTriggerHolder.appendChild(imageContainerLeftTrigger);
-imageContainerTriggerHolder.appendChild(imageContainerRightTrigger);
-imageContainer.appendChild(imageContainerTriggerHolder);
-
-// now do a normal if/else instead of the comma-expression
-if (imageArray.length > 1) {
-  imageCount = document.createElement("span");
-  imageCount.className = "imageCount";
-  imageCount.textContent = "1/" + imageArray.length;
-
-  projectTitle.classList.add("multipleImages");
-  newProject.classList.add("multipleImages");
-
-  // --- RIGHT trigger (next image) ---
-  imageContainerRightTrigger.addEventListener("click", function () {
-    var t, r = this.parentElement.nextElementSibling.children; // children avoids text nodes
-    var current, next;
-    Array.prototype.forEach.call(r, function (e, i) {
-      if (e.classList.contains("showing")) {
-        current = e;
-        t = i + 1;
-        if (t >= r.length) t = 0;
-        next = r[t];
-        e.classList.remove("showing");
-      }
-    });
-
-    // decode + crossfade
-    if (next) {
-      if ("decode" in next) {
-        next.decode().then(function(){ next.classList.add("showing"); })
-                     .catch(function(){ next.classList.add("showing"); });
-      } else {
-        next.classList.add("showing");
-      }
-    }
-
-    // pre-decode one ahead (optional, cheap)
-    var pre = r[(t + 1) % r.length];
-    if (pre && !pre.complete) {
-      pre.loading = "eager";
-      pre.fetchPriority = "low";
-      if ("decode" in pre) pre.decode().catch(function(){});
-    }
-
-    var e = this.parentNode.parentNode.parentNode;
-    e.childNodes[e.childNodes.length - 1].textContent = (t + 1) + "/" + r.length;
-  });
-
-  // --- LEFT trigger (previous image) ---
-  imageContainerLeftTrigger.addEventListener("click", function () {
-    var t, r = this.parentElement.nextElementSibling.children;
-    var current, next;
-    Array.prototype.forEach.call(r, function (e, i) {
-      if (e.classList.contains("showing")) {
-        current = e;
-        t = i - 1;
-        if (t < 0) t = r.length - 1;
-        next = r[t];
-        e.classList.remove("showing");
-      }
-    });
-
-    if (next) {
-      if ("decode" in next) {
-        next.decode().then(function(){ next.classList.add("showing"); })
-                     .catch(function(){ next.classList.add("showing"); });
-      } else {
-        next.classList.add("showing");
-      }
-    }
-
-    // pre-decode one behind (optional)
-    var pre = r[(t - 1 + r.length) % r.length];
-    if (pre && !pre.complete) {
-      pre.loading = "eager";
-      pre.fetchPriority = "low";
-      if ("decode" in pre) pre.decode().catch(function(){});
-    }
-
-    var e = this.parentNode.parentNode.parentNode;
-    e.childNodes[e.childNodes.length - 1].textContent = (t + 1) + "/" + r.length;
-  });
-
-} else {
-  imageCount = document.createElement("span");
-  imageCount.className = "imageCount";
-  imageCount.textContent = "1/1";
-}
-
+	if (imageContainerRightTrigger.id = "imageContainerRightTrigger", imageContainerRightTrigger.addEventListener("mouseenter", function() {
+		cursor.classList.add("east")
+	}), imageContainerRightTrigger.addEventListener("mouseleave", function() {
+		cursor.classList.remove("east")
+	}), imageContainerTriggerHolder.appendChild(imageContainerLeftTrigger), imageContainerTriggerHolder.appendChild(imageContainerRightTrigger), imageContainer.appendChild(imageContainerTriggerHolder), 1 < imageArray.length)(imageCount = document.createElement("span")).className = "imageCount", imageCount.innerHTML = "1/" + imageArray.length, projectTitle.classList.add("multipleImages"), newProject.classList.add("multipleImages"), imageContainerRightTrigger.addEventListener("click", function() {
+		var t, r = this.parentElement.nextElementSibling.childNodes;
+		r.forEach(function(e, i) {
+			e.classList.contains("showing") && ((t = i + 1) >= r.length && (t = 0), e.classList.remove("showing"))
+		}), r[t].classList.add("showing");
+		var e = this.parentNode.parentNode.parentNode;
+		e.childNodes[e.childNodes.length - 1].innerHTML = t + 1 + "/" + r.length
+	}), imageContainerLeftTrigger.addEventListener("click", function() {
+		var t, r = this.parentElement.nextElementSibling.childNodes;
+		r.forEach(function(e, i) {
+			e.classList.contains("showing") && ((t = i - 1) < 0 && (t = r.length - 1), e.classList.remove("showing"))
+		}), r[t].classList.add("showing");
+		var e = this.parentNode.parentNode.parentNode;
+		e.childNodes[e.childNodes.length - 1].innerHTML = t + 1 + "/" + r.length
+	});
+	else(imageCount = document.createElement("span")).className = "imageCount", imageCount.innerHTML = "1/1";
 	for (var a = 0; a < imageArray.length; a++) {
 		var image = document.createElement("img");
 		image.classList.add("image");

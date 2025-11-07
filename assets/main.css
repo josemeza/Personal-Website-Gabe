@@ -517,5 +517,5 @@ body.loaded.openPanel #soundController {
   bottom: 0; /* full stage height */
 }
 
-img.image { transition: opacity .3s ease; opacity: 0; }
+img.image { transition: opacity .25s ease; opacity: 0; }
 img.image.showing { opacity: 1; display: block; }
