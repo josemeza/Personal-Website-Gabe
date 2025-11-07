@@ -158,15 +158,26 @@ span.imageCount {
 
 img.image {
   position: absolute;
-  inset: 0;                /* top/right/bottom/left: 0 */
+  inset: 0;
   width: 100%;
-  height: 100%;            /* fill the stage's aspect-ratio height */
+  height: 100%;
   object-fit: cover;
-  display: none;
-  background: transparent; /* ensure no green tint */
+
+  /* keep all frames stacked, just invisible */
+  opacity: 0;
+  pointer-events: none;
+
+  /* smooth GPU-friendly fade */
+  transition: opacity .3s ease;
+  will-change: opacity;
+  backface-visibility: hidden;
+  background: transparent;
 }
 
-img.image.showing { display: block; }
+img.image.showing {
+  opacity: 1;
+  pointer-events: auto; /* only the visible frame is interactive */
+}
 
 .project .imageContainerTriggerHolder {
 	display: none
@@ -517,5 +528,5 @@ body.loaded.openPanel #soundController {
   bottom: 0; /* full stage height */
 }
 
-img.image { transition: opacity .25s ease; opacity: 0; }
+img.image { transition: opacity .3s ease; opacity: 0; }
 img.image.showing { opacity: 1; display: block; }
