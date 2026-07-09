@@ -6,30 +6,9 @@ var projectDB, cursorLeft, cursorTop, projectPreviews,
     windowHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0),
     projects = document.getElementById("projects"),
     projectList = document.getElementById("projectList"),
-    soundController = document.getElementById("soundController"),
+    soundController = document.getElementById("themeController"),
+    themeText = document.getElementById("themeText"),
     cursor = document.getElementById("cursor");
-
-function preloadSounds(a) {
-  var o = document.createElement("audio");
-  o.src = "assets/sounds/" + a;
-  o.preload = "none";
-  o.addEventListener("loadeddata", function(){});
-}
-function initSoundPreload() {
-  var soundFileArray = [
-    "beer.mp3", "dialing.mp3", "low-power.mp3", "mail.mp3",
-    "shutter.mp3", "sms.mp3", "sound-off.mp3", "sound-on.mp3"
-  ];
-  for (var a = 0; a < soundFileArray.length; a++) {
-    preloadSounds(soundFileArray[a]);
-  }
-}
-// Defer to idle so it doesn’t block rendering
-if ('requestIdleCallback' in window) {
-  requestIdleCallback(initSoundPreload);
-} else {
-  setTimeout(initSoundPreload, 0);
-}
 
 console.log("Design and development by Gabe Ferreira");
 console.log("contact@gabeferreira.com");
@@ -347,31 +326,50 @@ try {
   try { _iteratorNormalCompletion5 || (_iterator5.return && _iterator5.return()); } finally { if (_didIteratorError5) throw _iteratorError5; }
 }
 
-// ---------- Sound toggle ----------
-soundController.addEventListener("click", function () {
-  var e;
-  if (this.classList.contains("soundOn")) {
-    this.classList.remove("soundOn");
-    this.classList.add("soundOff");
-    e = document.createElement("audio");
-    e.src = "assets/sounds/sound-off.mp3";
-    e.preload = "none";
-    e.play();
-    cursor.className = "east";
-  } else {
-    this.classList.remove("soundOff");
-    this.classList.add("soundOn");
-    e = document.createElement("audio");
-    e.src = "assets/sounds/sound-on.mp3";
-    e.preload = "none";
-    e.play();
-    cursor.className = "west";
+// ---------- Theme toggle ----------
+function setTheme(theme) {
+  var isLight = theme === "light";
+
+  body.classList.toggle("theme-light", isLight);
+
+  if (themeText) {
+    themeText.textContent = isLight ? "Light" : "Dark";
   }
-});
-soundController.addEventListener("mouseenter", function () {
-  this.classList.contains("soundOn") ? cursor.classList.add("west") : cursor.classList.add("east");
-});
-soundController.addEventListener("mouseleave", function () {
-  cursor.classList.remove("east");
-  cursor.classList.remove("west");
-});
+
+  if (soundController) {
+    soundController.setAttribute(
+      "aria-label",
+      isLight ? "Switch to dark mode" : "Switch to light mode"
+    );
+  }
+
+  try {
+    localStorage.setItem("theme", theme);
+  } catch (e) {}
+}
+
+function getInitialTheme() {
+  try {
+    var saved = localStorage.getItem("theme");
+    if (saved === "light" || saved === "dark") return saved;
+  } catch (e) {}
+
+  return "dark";
+}
+
+setTheme(getInitialTheme());
+
+if (soundController) {
+  soundController.addEventListener("click", function() {
+    var nextTheme = body.classList.contains("theme-light") ? "dark" : "light";
+    setTheme(nextTheme);
+  });
+
+  soundController.addEventListener("mouseenter", function() {
+    cursor.classList.add("east");
+  });
+
+  soundController.addEventListener("mouseleave", function() {
+    cursor.classList.remove("east");
+  });
+}

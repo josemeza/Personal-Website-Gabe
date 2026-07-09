@@ -41,6 +41,22 @@ table {
 	font-display: swap;     /* ← prevents render delay */
 }
 
+:root {
+  --bg: #0E0E0E;
+  --fg: #F7F5F0;
+  --muted: rgba(247, 245, 240, .32);
+  --rule: rgba(247, 245, 240, .35);
+  --selection: rgba(247, 245, 240, .18);
+}
+
+body.theme-light {
+  --bg: #F7F5F0;
+  --fg: #0E0E0E;
+  --muted: rgba(14, 14, 14, .36);
+  --rule: rgba(14, 14, 14, .28);
+  --selection: rgba(14, 14, 14, .12);
+}
+
 body, html {
 	overflow: auto;
 	cursor: none
@@ -50,8 +66,8 @@ body {
 	font: 6.75vw/1.1em untitled-sans, helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	overflow-x: hidden;
-	background: #111;
-	color: #fff;
+	background: var(--bg);
+	color: var(--fg);
 	letter-spacing: -2px
 }
 
@@ -530,3 +546,74 @@ body.loaded.openPanel #soundController {
 
 img.image { transition: opacity .3s ease; opacity: 0; }
 img.image.showing { opacity: 1; display: block; }
+
+/* --- Light / Dark theme overrides --- */
+
+.projectTitle,
+.projectTitle:hover,
+.expandablePanel.open .expandablePanelTrigger {
+  color: var(--fg);
+}
+
+.projectDescription,
+span.imageCount,
+.expandablePanelTrigger,
+body.openPanel .siteMeta {
+  color: var(--muted);
+}
+
+.expandablePanelContent a {
+  border-color: var(--rule);
+}
+
+.expandablePanel.open .expandablePanelButtonLines span {
+  background-color: var(--fg);
+}
+
+::selection {
+  background: var(--selection);
+}
+
+::-moz-selection {
+  background: var(--selection);
+}
+
+/* New theme toggle, replacing old sound control */
+#themeController {
+  position: fixed;
+  color: var(--fg);
+  background: transparent;
+  border: 0;
+  padding: 0;
+  bottom: 40px;
+  right: 40px;
+  font: inherit;
+  letter-spacing: inherit;
+  opacity: 0;
+  text-align: right;
+  cursor: none;
+  transition: color .4s, opacity 1s;
+}
+
+body.loaded #themeController {
+  opacity: 1;
+}
+
+body.loaded.openPanel #themeController {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .4s;
+}
+
+/* Keep the custom cursor visible on light mode */
+body.theme-light #cursor {
+  -webkit-filter: invert(1) drop-shadow(0 0 5px rgba(0, 0, 0, .5));
+  filter: invert(1) drop-shadow(0 0 5px rgba(0, 0, 0, .5));
+}
+
+@media (max-width:1100px), (max-device-width:1100px) {
+  #themeController {
+    right: 30px;
+    bottom: 20px;
+  }
+}
