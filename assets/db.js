@@ -4,7 +4,7 @@ projectDB = [
 		id:'Fir Wood',
 		description:'A design-focused retreat experience at an original Sea Ranch Cluster House',
 		images:[
-			'1_FirWood.jpg',
+			'1_FirWood.png',
 			'2_FirWood.gif',
 			'3_FirWood.jpg',
 			'4_FirWood.jpg',
@@ -97,20 +97,6 @@ projectDB = [
 		customID:'',
 	},
 	{
-		title:'Dept.',
-		id:'Dept',
-		description:'Brand strategy and design for a landscape architecture and urban design studio',
-		images:[
-			'Logo.gif',
-			'About Page.png',
-			'Project Page.gif',
-			'Card 1.jpg',
-			'Card 2.jpg'
-		],
-		customClass:'',
-		customID:'',
-	},
-	{
 		title:'Figma',
 		id:'Figma',
 		description:'Brand design for the public release of the collaborative design tool',
@@ -124,16 +110,15 @@ projectDB = [
 		customID:'',
 	},
 	{
-		title:'IDEO',
-		id:'IDEO',
-		description:'Art direction for the design and consulting firm',
+		title:'Dept.',
+		id:'Dept',
+		description:'Brand strategy and design for a landscape architecture and urban design studio',
 		images:[
-			'IDEO-2.jpg',
-			'IDEO-7.jpg',
-			'IDEO-3.jpg',
-			'IDEO-4.jpg',
-			'IDEO-5.jpg',
-			'IDEO-6.jpg',
+			'Logo.gif',
+			'About Page.png',
+			'Project Page.gif',
+			'Card 1.jpg',
+			'Card 2.jpg'
 		],
 		customClass:'',
 		customID:'',
