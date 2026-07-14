@@ -14,7 +14,7 @@ projectDB = [
 			'8_FirWood.jpg',
 			'9_FirWood.jpg'
 		],
-		customClass:'',
+		customClass: "classic",
 		customID:'',
 	},
 	{
