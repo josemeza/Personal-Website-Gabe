@@ -4,11 +4,15 @@ projectDB = [
 		id:'Fir Wood',
 		description:'A design-focused retreat experience at an original Sea Ranch Cluster House',
 		images:[
-			'1_FirWood.png',
-			'2_FirWood.gif',
+			'1_FirWood.jpg',
+			'2_FirWood.jpg',
 			'3_FirWood.jpg',
 			'4_FirWood.jpg',
-			'5_FirWood.jpg'
+			'5_FirWood.jpg',
+			'6_FirWood.jpg',
+			'7_FirWood.jpg',
+			'8_FirWood.jpg',
+			'9_FirWood.jpg'
 		],
 		customClass:'',
 		customID:'',
@@ -117,8 +121,7 @@ projectDB = [
 			'Logo.gif',
 			'About Page.png',
 			'Project Page.gif',
-			'Card 1.jpg',
-			'Card 2.jpg'
+			'Card 1.jpg'
 		],
 		customClass:'',
 		customID:'',
