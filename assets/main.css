@@ -329,10 +329,6 @@ body.loaded.openPanel #soundController {
 	color: rgba(255, 255, 255, .3)
 }
 
-#aboutSectionContent {
-	margin-right: 60px
-}
-
 #cursor {
 	height: 47px;
 	width: 30px;
@@ -506,7 +502,7 @@ body.loaded.openPanel #soundController {
 
 @media (min-width: 601px) {
   #aboutSectionContent {
-    width: 66.67%;
+    width: 87.5%;
     max-width: none;
     margin-right: 0;
     line-height: 1.3;
