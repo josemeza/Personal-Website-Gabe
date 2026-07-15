@@ -11,8 +11,7 @@ projectDB = [
 			'5_FirWood.jpg',
 			'6_FirWood.jpg',
 			'7_FirWood.jpg',
-			'8_FirWood.jpg',
-			'9_FirWood.jpg'
+			'8_FirWood.jpg'
 		],
 		customClass: "classic",
 		customID:'',
