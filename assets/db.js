@@ -2,7 +2,7 @@ projectDB = [
 	{
 		title:'Fir Wood',
 		id:'Fir Wood',
-		description:'A design-focused retreat experience at an original Sea Ranch Cluster House',
+		description:'An independent hospitality project in an original Sea Ranch Cluster House',
 		images:[
 			'1_FirWood.jpg',
 			'2_FirWood.jpg',
@@ -19,7 +19,7 @@ projectDB = [
 	{
 		title:'Airbnb',
 		id:'Airbnb',
-		description:'Contributing design and direction for the Airbnb 2025 Summer Release',
+		description:'Contributing design and direction for Airbnb’s 2025 Summer Release',
 		customClass: "classic",
 		images:[
 			'1-Airbnb.jpg',
@@ -35,7 +35,7 @@ projectDB = [
 	{
 		title:'Apple',
 		id:'Apple',
-		description:'Art direction and design for marketing creative across Apple services',
+		description:'Marketing design and art direction across Apple services',
 		images:[
 			'Apple_1.jpg',
 			'Apple_2.jpg',
@@ -51,7 +51,7 @@ projectDB = [
 	{
 		title:'The Most Searched',
 		id:'Most Searched',
-		description:'Art direction and design for a Google spotlight on some of the most searched moments and individuals in honor of Black History Month',
+		description:'Art direction and design for a Google editorial campaign for Black History Month',
 		images:[
 			'1-Clip.gif',
 			'2-OOH.jpg',
@@ -70,7 +70,7 @@ projectDB = [
 	{
 		title:'Space to Belong',
 		id:'Space to Belong',
-		description:'Art direction and design for a Google Pride celebration of inclusive spaces that foster belonging for all',
+		description:'Art direction and design for a Google Pride campaign celebrating belonging',
 		images:[
 			'Pride - 1.jpg',
 			'Pride - 2.jpg',
@@ -87,7 +87,7 @@ projectDB = [
 	{
 		title:'Gayletter',
 		id:'Gayletter',
-		description:'Art direction and layout design for the biannual print magazine chronicling queer art and culture',
+		description:'Art direction and editorial design for a biannual magazine of queer art and culture',
 		images:[
 			'Gayletter-Omar.gif',
 			'Gayletter-1.jpg',
@@ -102,7 +102,7 @@ projectDB = [
 	{
 		title:'Figma',
 		id:'Figma',
-		description:'Brand design for the public release of the collaborative design tool',
+		description:'Brand design for Figma’s public launch',
 		images:[
 			'Figma-0.gif',
 			'Figma-1.jpg',
@@ -175,7 +175,7 @@ projectDB = [
 	{
 		title:'Work in Progress',
 		id:'WIP',
-		description:'An ongoing exploration of the ordinary through image and object making',
+		description:'An ongoing study of the ordinary through images and objects',
 		images:[
 			'WIP-1.jpg',
 			'WIP-2.jpg',
