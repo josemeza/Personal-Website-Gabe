@@ -465,7 +465,7 @@ body.loaded.openPanel #soundController {
 	}
 
 	span.imageCount {
-		margin-top: 20px
+	  margin-top: 12px;
 	}
 
 	.projectDescription {
@@ -473,7 +473,10 @@ body.loaded.openPanel #soundController {
 	}
 
 	.project {
-		margin-bottom: 60px
+	  margin-bottom: 36px;
+
+	#projectList .project:last-child {
+  margin-bottom: 0;
 	}
 
 }
