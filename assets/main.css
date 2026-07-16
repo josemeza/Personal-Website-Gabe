@@ -502,7 +502,7 @@ body.loaded.openPanel #soundController {
 
 @media (min-width: 601px) {
   #aboutSectionContent {
-    width: 85%;
+    width: 90%;
     max-width: none;
     margin-right: 0;
     line-height: 1.3;
