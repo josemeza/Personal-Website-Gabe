@@ -9,6 +9,7 @@ projectDB = [
 			'3_FirWood.jpg',
 			'4_FirWood.jpg',
 			'5_FirWood.jpg',
+			'5a_FirWood.gif',
 			'6_FirWood.jpg',
 			'7_FirWood.jpg',
 			'8_FirWood.jpg'
@@ -19,7 +20,7 @@ projectDB = [
 	{
 		title:'Airbnb',
 		id:'Airbnb',
-		description:'Contributing design and direction for Airbnb’s 2025 Summer Release',
+		description:'Contributing design and direction for Airbnb’s Summer Release',
 		customClass: "classic",
 		images:[
 			'1-Airbnb.jpg',
