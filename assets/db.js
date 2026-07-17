@@ -55,14 +55,14 @@ projectDB = [
 		images:[
 			'1-Clip.gif',
 			'2-OOH.jpg',
-			'3-Social.jpg',
-			'4-Print.jpg',
-			'5-Mobile.jpg',
-			'6-Desktop.jpg',
-			'7-OOH.jpg',
-			'8-OOH.jpg',
-			'9-OOH.jpg',
-			'10-OOH.jpg'
+			'3-OOH.jpg',
+			'4-OOH.jpg',
+			'5-OOH.jpg',
+			'6-OOH.jpg',
+			'7-Print.jpg',
+			'8-Social.png',
+			'9-Mobile.png',
+			'10-Desktop.png'
 		],
 		customClass:'',
 		customID:'',
@@ -72,16 +72,16 @@ projectDB = [
 		id:'Space to Belong',
 		description:'Art direction and design for a Google Pride campaign celebrating belonging',
 		images:[
-			'Pride - 1.jpg',
-			'Pride - 2.jpg',
-			'Pride - 3.jpg',
-			'Pride - 4.jpg',
-			'Pride - 5.jpg',
-			'Pride - 6.jpg',
-			'Pride - 7.jpg',
-			'Pride - 8.jpg'
+			'Pride - 1.png',
+			'Pride - 2.png',
+			'Pride - 3.png',
+			'Pride - 4.png',
+			'Pride - 5.png',
+			'Pride - 6.png',
+			'Pride - 7.png',
+			'Pride - 8.png'
 		],
-		customClass:'',
+		customClass: "classic",
 		customID:'',
 	},
 	{
@@ -96,7 +96,7 @@ projectDB = [
 			'Gayletter-4.jpg',
 			'Gayletter-Alt.jpg'
 		],
-		customClass:'',
+		customClass: "classic",
 		customID:'',
 	},
 	{
@@ -120,7 +120,7 @@ projectDB = [
 			'Logo.gif',
 			'About Page.png',
 			'Project Page.gif',
-			'Card 1.jpg'
+			'Card 1.png'
 		],
 		customClass:'',
 		customID:'',
