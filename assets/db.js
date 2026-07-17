@@ -105,8 +105,8 @@ projectDB = [
 		description:'Brand design for Figma’s public launch',
 		images:[
 			'Figma-0.gif',
-			'Figma-1.jpg',
-			'Figma-2.jpg',
+			'Figma-1.png',
+			'Figma-2.png',
 			'Figma-3.png'
 		],
 		customClass:'',
@@ -164,10 +164,7 @@ projectDB = [
 			'Princeton-9.jpg',
 			'Princeton-10.jpg',
 			'Princeton-11.jpg',
-			'Princeton-12.jpg',
-			'Princeton-13.jpg',
-			'Princeton-14.jpg',
-			'Princeton-15.jpg'
+			'Princeton-12.jpg'
 		],
 		customClass:'',
 		customID:'',
