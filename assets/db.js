@@ -107,7 +107,7 @@ projectDB = [
 			'Figma-0.gif',
 			'Figma-1.jpg',
 			'Figma-2.jpg',
-			'Figma-3.jpg'
+			'Figma-3.png'
 		],
 		customClass:'',
 		customID:'',
