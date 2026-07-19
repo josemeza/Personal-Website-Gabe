@@ -100,6 +100,22 @@ projectDB = [
 		customID:'',
 	},
 	{
+		title:'Department',
+		id:'Dept',
+		description:'Brand strategy and design for a landscape architecture and urban design studio',
+		images:[
+			'DEPT-1.png',
+			'DEPT-2.png',
+			'DEPT-3.png',
+			'DEPT-4.png',
+			'DEPT-5.png',
+			'DEPT-6.png',
+			'DEPT-7.png'
+		],
+		customClass:'',
+		customID:'',
+	},
+	{
 		title:'Figma',
 		id:'Figma',
 		description:'Brand design for Figma’s public launch',
@@ -108,19 +124,6 @@ projectDB = [
 			'Figma-1.png',
 			'Figma-2.png',
 			'Figma-3.png'
-		],
-		customClass:'',
-		customID:'',
-	},
-	{
-		title:'Dept.',
-		id:'Dept',
-		description:'Brand strategy and design for a landscape architecture and urban design studio',
-		images:[
-			'Logo.gif',
-			'About Page.png',
-			'Project Page.gif',
-			'Card 1.png'
 		],
 		customClass:'',
 		customID:'',
