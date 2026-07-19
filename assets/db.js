@@ -68,6 +68,22 @@ projectDB = [
 		customID:'',
 	},
 	{
+		title:'Department',
+		id:'Dept',
+		description:'Brand strategy and design for a landscape architecture and urban design studio',
+		images:[
+			'DEPT-1.png',
+			'DEPT-2.png',
+			'DEPT-3.png',
+			'DEPT-4.png',
+			'DEPT-5.png',
+			'DEPT-6.png',
+			'DEPT-7.png'
+		],
+		customClass:'',
+		customID:'',
+	},
+	{
 		title:'Space to Belong',
 		id:'Space to Belong',
 		description:'Art direction and design for a Google Pride campaign celebrating belonging',
@@ -97,22 +113,6 @@ projectDB = [
 			'Gayletter-Alt.jpg'
 		],
 		customClass: "classic",
-		customID:'',
-	},
-	{
-		title:'Department',
-		id:'Dept',
-		description:'Brand strategy and design for a landscape architecture and urban design studio',
-		images:[
-			'DEPT-1.png',
-			'DEPT-2.png',
-			'DEPT-3.png',
-			'DEPT-4.png',
-			'DEPT-5.png',
-			'DEPT-6.png',
-			'DEPT-7.png'
-		],
-		customClass:'',
 		customID:'',
 	},
 	{
