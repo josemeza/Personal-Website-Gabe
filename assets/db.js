@@ -11,7 +11,9 @@ projectDB = [
 			'5_FirWood.jpg',
 			'6_FirWood.jpg',
 			'7_FirWood.jpg',
-			'8_FirWood.jpg'
+			'8_FirWood.jpg',
+			'9_FirWood.png',
+			'10_FirWood.png'
 		],
 		customClass: "classic",
 		customID:'',
@@ -28,7 +30,8 @@ projectDB = [
 			'4-Airbnb.jpg',
 			'5-Airbnb.jpg',
 			'6-Airbnb.jpg',
-			'7-Airbnb.jpg'
+			'7-Airbnb.jpg',
+			'8-Airbnb.png'
 		],
 		customID:'',
 	},
@@ -42,7 +45,8 @@ projectDB = [
 			'Apple_3.jpg',
 			'Apple_4.jpg',
 			'Apple_5.jpg',
-			'Apple_6.jpg'
+			'Apple_6.jpg',
+			'Apple_7.png'
 
 		],
 		customClass:'',
@@ -62,7 +66,8 @@ projectDB = [
 			'7-Print.jpg',
 			'8-Social.png',
 			'9-Mobile.png',
-			'10-Desktop.png'
+			'10-Desktop.png',
+			'11-Role+Scope.png'
 		],
 		customClass:'',
 		customID:'',
@@ -78,7 +83,8 @@ projectDB = [
 			'DEPT-4.png',
 			'DEPT-5.png',
 			'DEPT-6.png',
-			'DEPT-7.png'
+			'DEPT-7.png',
+			'DEPT-8.png'
 		],
 		customClass:'',
 		customID:'',
@@ -95,7 +101,8 @@ projectDB = [
 			'Pride - 5.png',
 			'Pride - 6.png',
 			'Pride - 7.png',
-			'Pride - 8.png'
+			'Pride - 8.png',
+			'Pride - 9.jpg'
 		],
 		customClass: "classic",
 		customID:'',
@@ -110,7 +117,8 @@ projectDB = [
 			'Gayletter-2.jpg',
 			'Gayletter-3.jpg',
 			'Gayletter-4.jpg',
-			'Gayletter-Alt.jpg'
+			'Gayletter-5.jpg',
+			'Gayletter-6.png'
 		],
 		customClass: "classic",
 		customID:'',
@@ -123,7 +131,8 @@ projectDB = [
 			'Figma-0.gif',
 			'Figma-1.png',
 			'Figma-2.png',
-			'Figma-3.png'
+			'Figma-3.png',
+			'Figma-4.png'
 		],
 		customClass:'',
 		customID:'',
@@ -135,7 +144,8 @@ projectDB = [
 		images:[
 			'Pentagram-1.jpg',
 			'Pentagram-2.jpg',
-			'Pentagram-3.jpg'
+			'Pentagram-3.jpg',
+			'Pentagram-4.png'
 		],
 		customClass:'',
 		customID:'',
@@ -146,7 +156,8 @@ projectDB = [
 		description:'Environmental design for cultural and retail institutions',
 		images:[
 			'2x4-1.jpg',
-			'2x4-2.jpg'
+			'2x4-2.jpg',
+			'2x4-3.png'
 		],
 		customClass:'',
 		customID:'',
@@ -167,7 +178,8 @@ projectDB = [
 			'Princeton-9.jpg',
 			'Princeton-10.jpg',
 			'Princeton-11.jpg',
-			'Princeton-12.jpg'
+			'Princeton-12.jpg',
+			'Princeton-13.png'
 		],
 		customClass:'',
 		customID:'',
@@ -191,7 +203,8 @@ projectDB = [
 			'WIP-12.jpg',
 			'WIP-13.jpg',
 			'WIP-14.jpg',
-			'WIP-15.jpg'
+			'WIP-15.jpg',
+			'WIP-16.png'
 		],
 		customClass:'',
 		customID:'',
