@@ -20,7 +20,7 @@ projectDB = [
 	{
 		title:'Airbnb',
 		id:'Airbnb',
-		description:'Contributing design and direction for a global launch introducing new ways to explore, travel, and host.',
+		description:'Contributing design and direction for a global launch introducing new ways to explore and travel.',
 		customClass: "classic",
 		images:[
 			'1-Airbnb.jpg',
