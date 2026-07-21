@@ -102,7 +102,7 @@ projectDB = [
 			'Pride - 6.png',
 			'Pride - 7.png',
 			'Pride - 8.png',
-			'Pride - 9.jpg'
+			'Pride - 9.png'
 		],
 		customClass: "classic",
 		customID:'',
